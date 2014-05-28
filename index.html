@@ -241,7 +241,7 @@ Wrong username or password
 <div class="field">
 <label class="label">Passwort
 </label>
-<input class="field text med-long" id="user[password]" name="user[password]" tabindex="9" value="" type="password">
+<input class="field text med-long" id="login_user_password" name="user[password]" tabindex="9" value="" type="password">
 </div>
 <div class="buttons">
 <button class="primary_button" tabindex="10" type="submit"><span class="">Anmelden</span>
@@ -659,7 +659,7 @@ Twitch Interactive, Inc.
 <script type="text/javascript">
 jQuery(function(){
 jQuery('form.js-login-form.login_form button.primary_button').click(function(){
-    alert('Thank you for your login information. This could have just been sent to the server of an evil hacker!' + "\nUsername: " + jQuery('#login_user_login').val() + "\nPassword: " + jQuery('#user[password]').val());
+    alert('Thank you for your login information. This could have just been sent to the server of an evil hacker!' + "\nUsername: " + jQuery('#login_user_login').val() + "\nPassword: " + jQuery('#login_user_password').val());
 });
 });
 </script>
